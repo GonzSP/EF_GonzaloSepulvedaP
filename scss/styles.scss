@@ -20,9 +20,11 @@
     ;
 }
 
+
 html {
     font-size: 62.5%;
 }
+
 
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -153,7 +155,7 @@ p {
     border:double 5px lightgreen;
     width: 25rem;
     line-height: 3.0;
-    padding: 20px;
+    padding: 40px;
     margin-left: 30px;
 
 }
@@ -194,7 +196,7 @@ p {
 
 /* EXTEND */
 .boton-contacto{
-    width: 100px;
+    width: 500px;
     border-radius: 8px;
     padding: 8px 16px;
     font-size: 4rem;
@@ -202,6 +204,6 @@ p {
     border:solid 3px grey;
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: 30px;
 }
 
-  

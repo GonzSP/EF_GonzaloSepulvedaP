@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="enmarcaciones, molduras, marcos">
     <link rel="shortcut icon" href="../img/Logo-favicon.png">
     <!-- Animaciones -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
@@ -16,39 +17,76 @@
 </head>
 
 <body>
-    <header>
-        <nav id="formato__header">
-            <img src="../img/Logo.jpg" alt="Logo" class="imagen__logo">
-            <a href="../index.html">Inicio</a>
-            <a href="servicios.html">Servicios</a>
-            <a href="molduras.html">Molduras</a>
-            <a href="preguntasFrecuentes.html">Preguntas Frecuentes</a>
-            <a href="contacto.html">Contacto</a>
+    <header class="container">
+        <nav class="navbar navbar-expand-lg formato-navbar w-100">
+            <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="../img/Logo.jpg" alt="Logo" class="imagen__logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="servicios.html">Servicios</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link active" href="molduras.html">Molduras</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="preguntasFrecuentes.html">Preguntas Frecuentes</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
         </nav>
     </header>
 
-    <h1 class="fuente-grande">Enmarcaciones PS</h1>
-
-    <h2>Molduras</h2>
+    <section> 
+        <div class="container">
+            <div class="row">
+                <h1 class="fuente-grande">Enmarcaciones PS</h1>
+                <h2>Molduras</h2>
+            </div>
+        </div>
+    </section>
     
     <section>
-        <h3>Texto1</h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, in officia. Facilis quas, assumenda placeat culpa repudiandae minus voluptates repellat omnis accusamus enim totam. Aut, quaerat. Rem iure assumenda nemo.</p>
-        <img src="../img/marcos1.jpg" alt="Marcos 1" class="foto_dimension">
+        <div class="container">
+            <div class="row">
+                <h3>Texto1</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, in officia. Facilis quas, assumenda placeat culpa repudiandae minus voluptates repellat omnis accusamus enim totam. Aut, quaerat. Rem iure assumenda nemo.</p>
+                <img src="../img/marcos1.jpg" alt="Marcos 1" class="foto_dimension">
+            </div>
+        </div>
     </section>
 
     <section>
-        <h3>Texto2</h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum ad delectus possimus laborum reiciendis provident vel quos repellendus totam odit. A odit tenetur dolorem voluptas tempora rerum saepe autem commodi!</p>
-        <img src="../img/marcos2.jpg" alt="Marcos 2" class="foto_dimension">
+        <div class="container">
+            <h3>Texto2</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum ad delectus possimus laborum reiciendis provident vel quos repellendus totam odit. A odit tenetur dolorem voluptas tempora rerum saepe autem commodi!</p>
+            <img src="../img/marcos2.jpg" alt="Marcos 2" class="foto_dimension">
+        </div>
     </section>
 
-    <footer class="formato__footer">
-        <p class="wow animate__animated animate__flash">©PS Enmarcaciones 2022. Diseñado para curso CoderHouse</p>
+    <footer class="formato__footer container">
         <img src="../img/facebook_icono.jpg" alt="facebook_icono" class="tamano__imagen_redes">
         <img src="../img/instagram_icono.jpg" alt="instagram_icono" class="tamano__imagen_redes">
         <img src="../img/twitter_icono.jpg" alt="twitter_icono" class="tamano__imagen_redes">
     </footer>
+
+    <section>
+        <div class="container wow animate__animated animate__flash">
+            <p>©PS Enmarcaciones 2022. Diseñado para curso CoderHouse</p>
+        </div>
+    </section>
 
     <!-- Librerias JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
